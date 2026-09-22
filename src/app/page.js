@@ -81,7 +81,7 @@ export default function Home() {
         <section id="introduction" className={styles.introduction}>
           <div className={styles.introContent}>
             <div className={styles.profileImage}>
-              <img src="/foto_delwyn.webp" alt="Delwyn Fayad" />
+              <img src="/portofolio/foto_delwyn.webp" alt="Delwyn Fayad" />
             </div>
 
             <div>
