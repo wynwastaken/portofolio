@@ -109,10 +109,13 @@ export default function Home() {
                     >
                       Contact Me <Mail size={18} />
                     </button>
-                    <button className={styles.secondaryButton}>
+                    <a className={styles.secondaryButton}
+                      download
+                      href="/portofolio/CV_Delwyn-Fayad-Adrian.docx"
+                    >
                       <Download size={19} />
                       Download CV
-                    </button>
+                    </a>
                   </div>
               </div>
             </div>
@@ -232,7 +235,7 @@ export default function Home() {
             <h3>Wigistore V2</h3>
 
             <a href="#" aria-label="View Wigistore V2 project">
-              <ArrowUpRight size={17} />
+              
             </a>
           </div>
 
@@ -264,7 +267,7 @@ export default function Home() {
             <h3>Wigistore V1</h3>
 
             <a href="#" aria-label="View Wigistore V1 project">
-              <ArrowUpRight size={17} />
+              
             </a>
           </div>
 
@@ -297,7 +300,7 @@ export default function Home() {
             <h3>KenanginKopi</h3>
 
             <a href="#" aria-label="View KenanginKopi project">
-              <ArrowUpRight size={17} />
+              
             </a>
           </div>
 
@@ -328,7 +331,7 @@ export default function Home() {
             <h3>Hexfren</h3>
 
             <a href="#" aria-label="View Hexfren project">
-              <ArrowUpRight size={17} />
+              
             </a>
           </div>
 
@@ -360,7 +363,7 @@ export default function Home() {
             <h3>WhatsApp Order Notification</h3>
 
             <a href="#" aria-label="View WhatsApp Order Notification project">
-              <ArrowUpRight size={17} />
+              
             </a>
           </div>
 
@@ -377,6 +380,146 @@ export default function Home() {
             <span>Webhook</span>
             <span>WhatsApp API</span>
             <span>cURL</span>
+          </div>
+        </div>
+      </article>
+      {/* Copyin System Analysis & Design */}
+        <article className={styles.projectCard}>
+          <div className={styles.projectImage}>
+            <img
+              src="/portofolio/web8.webp"
+              alt="Copyin System Analysis & Design"
+            />
+          </div>
+
+          <div className={styles.projectInfo}>
+            <div className={styles.projectTitle}>
+              <h3>Copyin System Analysis & Design</h3>
+
+              <a
+                href="#"
+                aria-label="View Copyin System Analysis & Design project"
+              >
+                
+              </a>
+            </div>
+
+            <p>
+              Proyek analisis dan perancangan sistem untuk aplikasi pemesanan percetakan
+              dan alat tulis. Proyek mencakup analisis proses bisnis, pemodelan sistem,
+              perancangan alur aplikasi, serta spesifikasi fitur untuk pemesanan,
+              pembayaran, dan riwayat transaksi.
+            </p>
+
+            <div className={styles.techTags}>
+              <span>System Analysis</span>
+              <span>DFD</span>
+              <span>UML</span>
+              <span>Use Case</span>
+              <span>Figma</span>
+            </div>
+          </div>
+        </article>
+      {/* MyStyle UI/UX Design */}
+      <article className={styles.projectCard}>
+        <div className={styles.projectImage}>
+          <img
+            src="/portofolio/web6.webp"
+            alt="MyStyle UI/UX Design"
+          />
+        </div>
+
+        <div className={styles.projectInfo}>
+          <div className={styles.projectTitle}>
+            <h3>MyStyle UI/UX Design</h3>
+
+            <a href="#" aria-label="View MyStyle UI/UX Design project">
+              
+            </a>
+          </div>
+
+          <p>
+            Proyek desain UI/UX yang berfokus pada pemahaman kebutuhan dan perilaku
+            pengguna. Proyek mencakup user research, pembuatan user persona, user
+            journey, wireframe, desain high-fidelity, serta prototype interaktif.
+          </p>
+
+          <div className={styles.techTags}>
+            <span>Figma</span>
+            <span>UI/UX</span>
+            <span>User Research</span>
+            <span>User Persona</span>
+            <span>Prototyping</span>
+          </div>
+        </div>
+      </article>
+      {/* Global Fashion Retail Sales Data Modeling */}
+        <article className={styles.projectCard}>
+          <div className={styles.projectImage}>
+            <img
+              src="/portofolio/web9.webp"
+              alt="Global Fashion Retail Sales Data Modeling"
+            />
+          </div>
+
+          <div className={styles.projectInfo}>
+            <div className={styles.projectTitle}>
+              <h3>Global Fashion Retail Sales Data Modeling</h3>
+
+              <a
+                href="#"
+                aria-label="View Global Fashion Retail Sales Data Modeling project"
+              >
+                
+              </a>
+            </div>
+
+            <p>
+              Proyek analisis dan pemodelan data penjualan perusahaan fashion global yang
+              mencakup proses pembersihan, transformasi, dan pemodelan data. Proyek juga
+              menghasilkan dashboard untuk menganalisis KPI, tren penjualan, segmen
+              pelanggan, performa toko, dan kategori produk.
+            </p>
+
+            <div className={styles.techTags}>
+              <span>Microsoft Excel</span>
+              <span>Power Query</span>
+              <span>Power Pivot</span>
+              <span>Data Analysis</span>
+              <span>Dashboard</span>
+            </div>
+          </div>
+        </article>
+      {/* GoConcert Database System */}
+      <article className={styles.projectCard}>
+        <div className={styles.projectImage}>
+          <img
+            src="/portofolio/web7.webp"
+            alt="GoConcert Database System"
+          />
+        </div>
+
+        <div className={styles.projectInfo}>
+          <div className={styles.projectTitle}>
+            <h3>GoConcert Database System</h3>
+
+            <a href="#" aria-label="View GoConcert Database System project">
+             
+            </a>
+          </div>
+
+          <p>
+            Sistem database pemesanan tiket konser yang dirancang berdasarkan analisis
+            kebutuhan bisnis dan pemodelan ERD. Sistem menggunakan Oracle SQL untuk
+            mengelola struktur database, transaksi, query kompleks, serta kebutuhan
+            analisis dan pelaporan.
+          </p>
+          <div className={styles.techTags}>
+            <span>Oracle SQL</span>
+            <span>DDL</span>
+            <span>DML</span>
+            <span>ERD</span>
+            <span>Database</span>
           </div>
         </div>
       </article>
