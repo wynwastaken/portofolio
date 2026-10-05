@@ -776,7 +776,9 @@ export default function Home() {
             </div>
           </section>
           </Reveal>
-        
+        <footer className={styles.footer}>
+          <span>@wyntech</span>
+        </footer>
       </div>
     </>
   );
